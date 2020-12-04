@@ -217,6 +217,7 @@
 <details><summary>클래스 종료 후 강사에 대한 리뷰 및 평점 작성</summary><div markdown="1">
 > sql의 스케쥴러를 통해 하루 한번씩 클래스 종료 여부를 확인하는 프로시져를 실행하고,
 > 종료된 클래스의 종료 여부 컬럼을 변경, 클래스를 수강한 학생에게 리뷰작성 메시지를 전송한다.
+	
 ```sql
 --수업 종료 여부 확인 프로시져
 CREATE OR REPLACE PROCEDURE PROC_CLASS_END_CK 
